@@ -1,12 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: green;
+  background-image: url(../img/F0.jpg);
   background-size: auto 100vh; 
   font-family: Arial;
   height: 100vh;
 }
 
 .menu {
-  background-color: cyan;
+  background-color: green;
 }
 
 .menu ul {
@@ -19,21 +25,27 @@ body {
 }
 
 a {
-  color: black;
+  color: cyan;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.migo, 
-.Chaves,
-.meuA {
-  color: whitesmoke;
+.CA1 {
+  color: yellowgreen;
   text-align: center;
 }
 
-.site-subtitle {
- font-style: italic;
+.CA2 {
+  color: greenyellow;
+  text-align: center
+}
+
+
+H1 {
+  margin: 1vh; 
+  border: 1px solid green;
+  padding: 0px;
 }
