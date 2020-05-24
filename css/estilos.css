@@ -21,7 +21,7 @@ body {
 }
 
 .menu li {
- list-style: none; 
+ list-style: square; 
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .CA1 {
@@ -46,6 +46,6 @@ a:hover {
 
 H1 {
   margin: 1vh; 
-  border: 1px solid red;
+  border: 1px solid green;
   padding: 0px;
 }
